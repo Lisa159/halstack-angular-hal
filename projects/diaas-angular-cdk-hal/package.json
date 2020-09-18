@@ -39,7 +39,6 @@
       "ng-packagr": "^5.4.0",
       "ngx-mask": "^8.0.2",
       "rxjs": "~6.5.2",
-      "ts-jest": "^26.1.1",
       "tsickle": "^0.37.0",
       "vanilla-text-mask": "^5.1.1",
       "zone.js": "~0.9.1"
