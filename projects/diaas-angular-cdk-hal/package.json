@@ -11,6 +11,10 @@
     "test:coverage": "jest --config ./jest.lib.config.js --coverage",
     "build-lib:watch": "ng build --watch"
   },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
   "dependencies": {
     "@angular/animations": "8.2.14",
     "@angular/cdk": "8.2.3",
@@ -39,7 +43,7 @@
     "ng-packagr": "^5.4.0",
     "ngx-mask": "^8.0.2",
     "rxjs": "~6.5.2",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "25.0.0",
     "tsickle": "^0.37.0",
     "vanilla-text-mask": "^5.1.1",
     "zone.js": "~0.9.1"
