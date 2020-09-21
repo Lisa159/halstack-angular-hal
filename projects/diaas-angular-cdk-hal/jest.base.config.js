@@ -1,7 +1,7 @@
 module.exports = {
     preset: 'jest-preset-angular',
     rootDir: '../',
-    setupFilesAfterEnv: ['<rootDir>/projects/diaas-angular-cdk-hal/test-import.ts'],
+    setupFilesAfterEnv: ['<rootDir>/diaas-angular-cdk-hal/test-import.ts'],
     testURL: 'http://localhost',
     globals: {
       'ts-jest': {
