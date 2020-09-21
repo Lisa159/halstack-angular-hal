@@ -25,7 +25,7 @@ jobs:
       run: npm install --save-dev jest
     
     - name: Test library
-      run: cd ./projects/diaas-angular-cdk-hal && npm run test
+      run: npm run test
     
     - name: Publish next to npm
       run: |
