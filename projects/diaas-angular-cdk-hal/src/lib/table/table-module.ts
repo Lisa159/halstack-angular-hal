@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { DxcCellOutlet } from './row';
 import { DxcRowDef } from './row';
-import { DxcTableModule, DxcSpinnerModule, DxcPaginatorModule } from '@dxc-technology/halstack-angular';
+import { DxcTableModule, DxcSpinnerModule, DxcPaginatorModule, ThemeModule } from '@dxc-technology/halstack-angular';
 import { CommonModule } from '@angular/common';
 import { DxcHeaderRowComponent } from './components/dxc-header-row/dxc-header-row.component';
 import { DxcRowComponent } from './components/dxc-row/dxc-row.component';
@@ -28,7 +28,8 @@ import { Ordering } from './directives/sorting.directive';
     FormsModule,
     DxcSpinnerModule,
     DxcPaginatorModule,
-    DxcTableModule
+    DxcTableModule,
+    ThemeModule
   ],
   declarations: [
     DxcHalTable,
