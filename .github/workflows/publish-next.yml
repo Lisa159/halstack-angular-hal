@@ -17,12 +17,12 @@ jobs:
       with:
         node-version: 10.x
         registry-url: https://registry.npmjs.org/
-      
-    - name: Install dependencies
-      run: rm -rf node_modules && npm install
 
     - name: Install lib dependencies
       run: cd ./projects/diaas-angular-cdk-hal && rm -rf node_modules && npm install && npm run generate-lib
+
+    - name: Install dependencies
+      run: rm -rf node_modules && npm install
     
     - name: Test library
       run: cd ./projects/diaas-angular-cdk-hal && npm run test
